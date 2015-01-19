@@ -1,2 +1,3 @@
-# sogouExplorerBubbleTest
-To test the script [sogou-explorer-bubble](https://code.google.com/p/sogou-explorer-bubble/)
+# sogouExplorerTridentWarning
+
+This script shows a warning when using Sogou Explorer in Trident mode, asking the user to switch to Webkit mode.

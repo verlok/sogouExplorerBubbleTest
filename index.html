@@ -25,13 +25,16 @@
             #ua {
                 color: #00b94d;
             }
+            .ua {
+                font-size: 12px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <h1>Sogou Explorer Bubble</h1>
-            <p>If you're browsing with Sogou Explorer in IE mode, a bubble should appear up in the browser.</p>
-            <p>Current browser's user agent is: <span id="ua"></span></p>
+            <p>This script shows a warning when using Sogou Explorer in Trident mode, asking the user to switch to Webkit mode.</p>
+            <p class="ua">Current browser's user agent is: <span id="ua"></span></p>
         </div>
         <script>
             document.getElementById('ua').innerHTML = navigator.userAgent;
